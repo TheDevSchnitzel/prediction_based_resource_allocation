@@ -1,0 +1,16 @@
+Data;Cases;Avg_weight;Total_weighted_sum;Total_computation_time;total_pred_time;total_opti_time;alpha;beta;precision
+./sample_data/artificial/testlog_0806_1_40.csv;40;5.637037037037037;2377;464.37595224380493;447.2948155403137;17.08113670349121;0.3;0.3;0.0
+Data;Cases;Avg_weight;Total_weighted_sum;Total_computation_time;total_pred_time;total_opti_time;alpha;beta;precision
+./sample_data/artificial/testlog_0806_1_60.csv;60;5.933333333333334;3557;689.0331628322601;672.1912062168121;16.841956615447998;0.3;0.3;0.0
+Data;Cases;Avg_weight;Total_weighted_sum;Total_computation_time;total_pred_time;total_opti_time;alpha;beta;precision
+./sample_data/artificial/testlog_0806_1_80.csv;80;5.851851851851852;4476;909.9756805896759;892.9615788459778;17.01410174369812;0.3;0.3;0.0
+Data;Cases;Avg_weight;Total_weighted_sum;Total_computation_time;total_pred_time;total_opti_time;alpha;beta;precision
+./sample_data/artificial/testlog_0806_1_100.csv;100;5.521481481481482;5398;1129.6683361530304;1112.751324415207;16.917011737823486;0.3;0.3;0.0
+Data;Cases;Avg_weight;Total_weighted_sum;Total_computation_time;total_pred_time;total_opti_time;alpha;beta;precision
+./sample_data/artificial/testlog_0806_1_120.csv;120;5.3617283950617285;6526;1365.584484577179;1348.5508043766022;17.033680200576782;0.3;0.3;0.0
+Data;Cases;Avg_weight;Total_weighted_sum;Total_computation_time;total_pred_time;total_opti_time;alpha;beta;precision
+./sample_data/artificial/testlog_0806_1_140.csv;140;5.841269841269841;8145;1608.8096899986267;1591.625317811966;17.184372186660767;0.3;0.3;0.0
+Data;Cases;Avg_weight;Total_weighted_sum;Total_computation_time;total_pred_time;total_opti_time;alpha;beta;precision
+./sample_data/artificial/testlog_0806_1_160.csv;160;5.657407407407407;9772;1829.618076324463;1811.9181127548218;17.699963569641113;0.3;0.3;0.0
+Data;Cases;Avg_weight;Total_weighted_sum;Total_computation_time;total_pred_time;total_opti_time;alpha;beta;precision
+./sample_data/artificial/testlog_0806_1_180.csv;176;5.283670033670034;10925;1928.3655474185944;1911.3164012432098;17.04914617538452;0.3;0.3;0.0

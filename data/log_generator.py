@@ -13,7 +13,6 @@ from bokeh.models import Legend, HoverTool
 #to include /Documents like directory
 p = Path(__file__).resolve().parents[2]
 sys.path.append(os.path.abspath(str(p)))
-print(p)
 from PyProM.src.data.Eventlog import Eventlog
 from PyProM.src.data.xes_reader import XesReader
 
@@ -291,34 +290,31 @@ class LogGenerator(object):
 
 if __name__=='__main__':
 	resource_info_name = '0806_1'
-	count_list = [90]
+	count_list = [40,60,80,100,120,140,160]
 	# count_list = [120]
 	#testlog
-	for count in count_list:
-		Gen = LogGenerator(mode='test', endpoint=180, count=count, res_path="../sample_data/artificial/new_resource_{}.csv".format(resource_info_name))
-		Gen.simulate()
-		#show(Gen.p)
-		eventlog = Gen.prod_eventlog(start_point='2018-12-01 00:00:00')
-		eventlog = Gen.generate_weight(eventlog)
+	for j in range(10):
+		for count in count_list:
+			Gen = LogGenerator(mode='test', endpoint=180, count=count, res_path="logs/new_resource_{}.csv".format(resource_info_name))
+			Gen.simulate()
+			#show(Gen.p)
+			eventlog = Gen.prod_eventlog(start_point='2018-12-01 00:00:00')
+			eventlog = Gen.generate_weight(eventlog)
 
-		i=0
-		check=False
-		removes = list()
-		for row in eventlog.itertuples():
-			if check == True:
-				if row.Activity=="Discharge":
-					removes.append(row.Index)
-					check=False
+			check=False
+			removes = list()
+			for row in eventlog.itertuples():
+				if check == True:
+					if row.Activity=="Discharge":
+						removes.append(row.Index)
+						check=False
+					else:
+						check=False
 				else:
-					check=False
-			else:
-				if row.Activity == "Discharge":
-					check=True
-		eventlog = eventlog.loc[~eventlog.index.isin(removes)]
-		print(eventlog)
-
-
-		eventlog.to_csv('../sample_data/artificial/testlog_{}_{}.csv'.format(resource_info_name,count))
+					if row.Activity == "Discharge":
+						check=True
+			eventlog = eventlog.loc[~eventlog.index.isin(removes)]
+			eventlog.to_csv('logs/testlog_{}_{}_{}.csv'.format(resource_info_name,count, j))
 
 
 	"""

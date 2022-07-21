@@ -36,6 +36,9 @@ def load():
     parser.add_argument('--data_set', default="modi_BPI_2012_dropna_filter_act.csv")
     parser.add_argument('--data_dir', default="../sample_data/real/")
     parser.add_argument('--checkpoint_dir', default="./estimation/")
+    
+    parser.add_argument('--modelName', default="default")
+    parser.add_argument('--modelArch', default='LSTM', choices=["LSTM", "Performer1", "Performer2"], type=str)
 
     args = parser.parse_args()
 

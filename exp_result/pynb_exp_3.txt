@@ -1,0 +1,2 @@
+Data;Cases;Avg_weight;Total_weighted_sum;Total_computation_time;total_pred_time;total_opti_time;alpha;beta;precision
+./sample_data/real/modi_BPI_2012_2012-03-01.csv;270;5.670407560543414;4945;17703.85822200775;17682.673851966858;21.184370040893555;1.0;1.0;0.0

@@ -1,0 +1,16 @@
+Data;Cases;Avg_weight;Total_weighted_sum;Total_computation_time
+./sample_data/artificial/testlog_0806_1_40.csv;40;5.637037037037037;2175;104.44424271583557
+Data;Cases;Avg_weight;Total_weighted_sum;Total_computation_time
+./sample_data/artificial/testlog_0806_1_60.csv;60;5.933333333333334;3427;148.60700511932373
+Data;Cases;Avg_weight;Total_weighted_sum;Total_computation_time
+./sample_data/artificial/testlog_0806_1_80.csv;80;5.851851851851852;4665;195.59765028953552
+Data;Cases;Avg_weight;Total_weighted_sum;Total_computation_time
+./sample_data/artificial/testlog_0806_1_100.csv;100;5.521481481481482;6348;240.2469973564148
+Data;Cases;Avg_weight;Total_weighted_sum;Total_computation_time
+./sample_data/artificial/testlog_0806_1_120.csv;120;5.3617283950617285;6457;279.49855852127075
+Data;Cases;Avg_weight;Total_weighted_sum;Total_computation_time
+./sample_data/artificial/testlog_0806_1_140.csv;140;5.841269841269841;8358;324.0231990814209
+Data;Cases;Avg_weight;Total_weighted_sum;Total_computation_time
+./sample_data/artificial/testlog_0806_1_160.csv;160;5.657407407407407;10958;367.7210114002228
+Data;Cases;Avg_weight;Total_weighted_sum;Total_computation_time
+./sample_data/artificial/testlog_0806_1_180.csv;176;5.283670033670034;61485;406.68142533302307

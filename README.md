@@ -1,10 +1,13 @@
 Following is the source code for the article "Prediction-based Resource Allocation using LSTM and maximum ﬂow and minimum cost algorithm" by Gyunam Park and [Minseok Song](http://mssong.postech.ac.kr) presented at the [1st International Conference on Process Mining](https://icpmconference.org) and submitted to the *information systems* (special issue).
 
+In the scope of the seminar "Machine Learning Applications in Process Mining" at the P.A.D.S. chair at RWTH Aachen university, this code has been adapted to use a [Performer](https://github.com/xl402/performer) architecture based model for the predictions, attempting to achieve equal precision while reducing computation time.
+To run the experiments and see some examples of how the code works, take a look at the paperExperiments.ipynb jupyter notebook.
+
 The code provided in this repository can be readily used to optimize resource scheduling in non-clairvoyant online job shop environment
 
 ### Requirements:
 
-- This code is written in Python3.6. In addition, you need to install a few more packages.
+- This code is written in Python3.6.13. In addition, you need to install a few more packages.
 
   - networkx
   - numpy
